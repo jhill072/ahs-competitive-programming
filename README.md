@@ -32,7 +32,7 @@ This will copy all of the files from the repository to your machine. Whenever
 there are updates to this repo after your clone, run `git pull` while in the
 cloned directory to grab the latest changes.
 
-## Branching (Intermediate)
+### Branching (Intermediate)
 First, follow the instructions above for cloning the repository. Then, before
 you make any changes to files, create a new `branch` by running the following:
 ` git checkout -b <branch-name>`
@@ -63,10 +63,27 @@ running `git status`. Any files in red or with `(CONFLICT)` next to them need to
 be addressed. Once you resolve these, proceed to `git add *` and perform a
 `git commit` to tell git to complete the merge process.
 
-## Forking (Advanced)
+### Forking (Advanced)
 When you fork this repository, you can do almost anything you feel like. You own
 the repository, which means you must maintain it as well. This involves getting
 latest master as in **Branching** above, but there are also different remotes,
 origins, and cloning methods. Please see [GitHub's documentation](https://docs.github.com/en/enterprise/2.13/user/articles/fork-a-repo)
 for more information on this topic, as it is too broad/flexible to cover in a
 simple README file.
+
+## How to use this repository
+This repository contains many starter files. Start by logging in to [our competition website](http://ahs-competitive-programming.com)
+and choosing the contest for your assignment. For the starter assignments, you
+should navigate this repository to find the problem(s) related to that
+assignment. It should provide you with one or more methods to populate while
+abstracting away the rest of the problem.
+
+This let's you focus on the part of the problem we are learning about and not
+worry about reading input, formatting the output, etc. Once you have implemented
+the necessary method(s), submit that file for solution to your problem. Once you
+receive a `CORRECT` response, then congratulations! You've solved the problem!
+
+**NOTE:** Please don't completely disregard the input parsing, output
+formatting, or other parts of the code that are already written for you. They
+are useful information you will need to know when participating in our
+practice competitions and real competitions.
