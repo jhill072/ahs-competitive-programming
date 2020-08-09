@@ -25,6 +25,10 @@ public class Racing {
 		public double cross(Vector other) {
 			// Populate if necessary
 		}
+		
+		public int magnitude() {
+			// Populate if necessary
+		}
 	}
 	
 	public static double angleBetween(Vector before, Vector at, Vector after) {
