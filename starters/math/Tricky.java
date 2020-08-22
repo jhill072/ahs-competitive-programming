@@ -10,6 +10,18 @@ public class Tricky {
 			this.x = x;
 			this.y = y;
 		}
+
+                public Vector add(Vector other) {
+                        /*
+                         * Populate if necessary
+                         */
+                }
+
+                public Vector subtract(Vector other) {
+                        /*
+                         * Populate if necessary
+                         */
+                }
 		
 		public double dot(Vector other) {
 			/*
