@@ -4,8 +4,8 @@ import java.util.Scanner;
 public class Racing {
 	
 	public static class Vector {
-		int x, y;
-		public Vector(int x, int y) {
+		double x, y;
+		public Vector(double x, double y) {
 			this.x = x;
 			this.y = y;
 		}
@@ -37,6 +37,12 @@ public class Racing {
 		 * Use the vector methods whenever possible.
 		 */
 	}
+
+        public static boolean angleSharperThan(double thisAngle, double bestAngle) {
+                /*
+                 * Populate according to your implementation.
+                 */
+        }
 	
 	public static void main(String[] args) throws IOException {
 		Scanner scanner = new Scanner(System.in);
@@ -46,7 +52,7 @@ public class Racing {
 			int turns = scanner.nextInt();
 			Vector[] points = new Vector[turns];
 			for (int t = 0; t < turns; t++) {
-				points[t] = new Vector(scanner.nextInt(), scanner.nextInt());
+				points[t] = new Vector(scanner.nextDouble(), scanner.nextDouble());
 			}
 			
 			int sharpestTurn = 1;
