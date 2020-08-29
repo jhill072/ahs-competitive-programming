@@ -53,7 +53,7 @@ public class Tricky {
 			Vector c = new Vector(scanner.nextInt(), scanner.nextInt());
 			
 			double protein = getProteinForCracker(a, b, c);
-			System.out.printf("Cracker #%d: %.2f%n", cracker, protein);
+			System.out.printf("Cracker #%d: %.2f grams of protein%n", cracker, protein);
 		}
 	}
 }
