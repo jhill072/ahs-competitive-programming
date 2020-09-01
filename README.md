@@ -13,7 +13,9 @@ to Mr. Hill for guidance or more information as well.
 ## Cloning this repository
 _NOTE:_ you do not have to use `git` to use this repository. You can always go
 directly to the file you are interested in and copy/paste its contents (hint:
-the raw contents button makes this very easy!)
+the raw contents button makes this very easy!) If you use the raw download,
+make sure to save as "All Files" and ensure the extension remains `.java`
+after the download completes.
 
 There are several different ways you can use this repository through the `git`
 tool: you can make a branch off of this repository and make commits to that
