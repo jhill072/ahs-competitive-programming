@@ -25,6 +25,8 @@ public class Debug {
 				long bigNumber = /* Read a long */;
 				System.out.printf("Long: %d%n", bigNumber);
 			}
+			
+			wordCount++;
 		}
 	}
 }
