@@ -17,7 +17,7 @@ public class Debug {
 				System.out.printf("Integer: %d%n", number);
 			} else if (wordCount % 4 == 1) {
 				double decimal = /* Read a double */;
-				System.out.printf("Double: %f%n", decimal);
+				System.out.println("Double: " + decimal);
 			} else if (wordCount % 4 == 2) {
 				String word = /* Read a string */;
 				System.out.printf("String: %s%n", word);
