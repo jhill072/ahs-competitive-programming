@@ -51,5 +51,7 @@ public class A10n {
 			output.append(System.lineSeparator());
 			line = br.readLine();
 		}
+		
+		System.out.println(output);
 	}
 }
