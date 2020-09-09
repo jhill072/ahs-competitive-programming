@@ -11,6 +11,10 @@ public class Parentheses {
 				// What to do?
 			} else if (formula.charAt(ch) == ')') {
 				// What to do?
+			} else if (formula.charAt(ch) == '[') {
+				// What to do?
+			} else if (formula.charAt(ch) == ']') {
+				// What to do?
 			} else {
 				// Does anything need to happen here?
 			}
@@ -36,7 +40,8 @@ public class Parentheses {
 		/*
 		 *  A technique if you don't like to make variables. Good
 		 *  for the really quick problems since less code means
-		 *  faster submission time means better chance for a balloon!
+		 *  faster submission time, which means better chance for
+		 *  a balloon!
 		 */
 		for (; formulas > 0; formulas--) {
 			String formula = scanner.nextLine();

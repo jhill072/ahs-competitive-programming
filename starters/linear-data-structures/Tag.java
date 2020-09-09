@@ -11,6 +11,8 @@ public class Tag {
 	
 	public static int countBits(int bitmask) {
 		// Return the number of bits that are on in bitmask.
+		// Useful methods for ints can be found here:
+		// https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html
 	}
 	
 	public static void main(String[] args) throws IOException {
