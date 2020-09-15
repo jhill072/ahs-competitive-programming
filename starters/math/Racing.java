@@ -76,7 +76,7 @@ public class Racing {
 				}
 			}
 			
-			System.out.printf("Race #%d: Turn %d is the most exciting!%n", race, sharpestTurn);
+			System.out.printf("Race #%d: Turn %d is the most exciting!%n", race, sharpestTurn + 1);
 		}
 	}
 }
