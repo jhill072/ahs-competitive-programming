@@ -4,5 +4,6 @@
 	<classpathentry kind="src" path="math"/>
 	<classpathentry kind="src" path="strings"/>
 	<classpathentry kind="src" path="linear-data-structures"/>
+	<classpathentry kind="src" path="advanced-data-structures"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
