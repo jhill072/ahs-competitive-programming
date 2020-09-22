@@ -10,6 +10,9 @@ public class Spam {
 			String inboxName = scanner.next();
 			int unread = scanner.nextInt();
 			scanner.nextLine(); // Move cursor to the next line
+
+			// This will track the order (since sets and maps do not guarantee order)
+			List<String> uniqueSubjects = new ArrayList<>();
 			
 			// What data structure should be instantiated here?
 			
@@ -17,10 +20,17 @@ public class Spam {
 				String subject = scanner.nextLine();
 				
 				// What to do with subject?
+				if (/* Subject is unique */) {
+					uniqueSubjects.add(subject);
+				}
 			}
 			
-			List<String> uniqueSubjects = new ArrayList<>(/* your data structure variable here */);
 			System.out.printf("%s (%d):%n", inboxName, uniqueSubjects.size());
+			for (int i = 0; i < uniqueSubjects.size(); i++) {
+				System.out.println(uniqueSubjects.get(i));
+			}
+			
+			System.out.println();
 		}
 	}
 }
