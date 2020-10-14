@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class SemorCode {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
+		String operation = scanner.next();
 		
 		int cases = scanner.nextInt();
 		for (int c = 0; c < cases; c++) {
@@ -18,7 +19,6 @@ public class SemorCode {
 				node.value = ch.charAt(0);
 			}
 			
-			String operation = scanner.next();
 			if (operation.equals("print")) {
 				int queries = scanner.nextInt();
 				for (int q = 0; q < queries; q++) {
@@ -29,10 +29,13 @@ public class SemorCode {
 				}
 			} else if (operation.equals("preorder")) {
 				root.preorder();
+				System.out.println();
 			} else if (operation.equals("inorder")) {
 				root.inorder();
+				System.out.println();
 			} else if (operation.equals("postorder")) {
-				root.inorder();
+				root.postorder();
+				System.out.println();
 			} else if (operation.equals("height")) {
 				int heights = scanner.nextInt();
 				for (int h = 0; h < heights; h++) {
