@@ -8,7 +8,7 @@ public class SemorCode {
 		int cases = scanner.nextInt();
 		for (int c = 0; c < cases; c++) {
 			Node root = new Node(5);
-			int letters = scanner.nextInt();
+			int letters = 31;
 			String rootCh = scanner.next();
 			root.value = rootCh.charAt(0);
 			for (int i = 0; i < letters; i++) {
