@@ -9,7 +9,7 @@ public class Monorail {
 		Scanner scanner = new Scanner(System.in);
 		int days = scanner.nextInt();
 		
-		for (int day = 1; day < days; day++) {
+		for (int day = 1; day <= days; day++) {
 			int height = scanner.nextInt();
 			int width = scanner.nextInt();
 			int potholes = scanner.nextInt();
