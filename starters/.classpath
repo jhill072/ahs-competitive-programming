@@ -6,5 +6,6 @@
 	<classpathentry kind="src" path="linear-data-structures"/>
 	<classpathentry kind="src" path="advanced-data-structures"/>
 	<classpathentry kind="src" path="graphs/trees"/>
+	<classpathentry kind="src" path="graphs/algorithms"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
